@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+#botones{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: goldenrod;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+#botones button{
+   
+}
