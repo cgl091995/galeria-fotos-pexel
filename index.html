@@ -7,35 +7,56 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <head>
-        <h1>TITULO PÁGINA</h1>
-    </head>
-
-    <main>
-        <section id="buscador">
-            <label for="orientazion">Orientación</label>
-            <select id="orientacion" name="orientacion">
-                <option value="todas">Todas</option>
-                <option value="hz">Horizontal</option>
-                <option value="vt">Vertical</option>
-            </select>
-            
-        </section>
-        <hr>
-        <div id="botones"></div> 
-            
+    <header>
         
+            <h1>GALERÍA FOTOS PEXEL</h1>
+           
+    </header>
+
+    <nav>
+    <div id="botones"></div>
+    </nav>  
+    <main>
+        <section id="parteFomulario">
+        
+        
+        <form >
+        <input type="text" id="buscador" name="buscador" placeholder="Busqueda">
+        <button id="botonBusqueda">BUSCAR</button>
+        </form>
+        <label for="orientazion">Orientación</label>
+            <select id="orientacion" name="orientacion">
+                <option value="">Todas</option>
+                <option value="landscape">Horizontal</option>
+                <option value="portrait">Vertical</option>
+            </select>
+
+        </section>  
+
         <section id="galeria">
-            <h2>GALERIA</h2>
+            <h2>Realiza una búsqueda</h2>
+
+        </section> 
+
+        <div id="botonPaginacion">
+            <button id="back" class="back"> < </button>
+            <button id="next" class="next"> > </button>
+            <div id="pagNumber"><p></p></div>
             
-            
-            
-        </section>
+        </div>
 
     </main>
 
     <footer>
+        <a href="https://www.pexels.com" target="_blank">Photos provided by Pexels</a>
+    </footer>
 
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+    <footer>
+        <a href="https://www.pexels.com">Photos provided by Pexels</a>
     </footer>
 
     <script src="js/main.js"></script>
